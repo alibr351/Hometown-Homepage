@@ -1,0 +1,93 @@
+@font-face {
+     src: url("TheQueenthine-4pBx.ttf");
+    font-family: "TheQueenthine";
+}
+@font-face {
+     src: url("Flowerheart.otf");
+    font-family: "flowerheart";
+}
+@font-face{
+    src: url("Stanley.ttf");
+    font-family: "Stanley";
+}
+@font-face {
+    src: url("Geraldine.ttf");
+    font-family: "Geraldin";
+} 
+span {
+    font-family: Stanley;
+    font-size: 100px;
+    font-weight: 400px;
+}
+
+b {
+    color: red;
+}
+body {
+    position: relative;
+    font-family: TheQueenthine;
+    width: 720px;
+    height: 1080px;
+    text-align: center; 
+    margin: 0px auto;
+    
+}
+h2, h4, h5, h1 {
+    color: #fff;
+    text-shadow: 0px 0px 5px black;
+    margin: 5px;
+}
+    
+.header {
+    height: 343px;
+    width: 720px;
+    margin: 0px 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/accra2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;      
+}
+#header-img-Ghana:hover {
+    background-image: url("images/accra.jpg");
+    background-size: cover; 
+}
+.header-container {
+    margin: 86px ;
+    color: #83BFE7;
+    text-shadow: 0px 0px 4px black;
+}
+#main {
+    width: 720px;
+    height: 343px;
+    background: #907E6F;
+    display: flex;  
+} 
+.main-img {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50px;     
+}
+.img-container {
+    margin: 58px auto;
+    text-align: center;
+}
+
+.card {
+    width: 400px;
+    height: 294px;
+    margin: 50px 160px;
+    background-color: #CCCABF;
+    display: flex;
+    border-radius: 10px;   
+}
+.card-img {
+    width: 180px;
+    height: 248px;
+    padding: 23px 10px;
+    border-radius: 100px;
+}
+.guide-intro {
+    margin: 55px auto;
+}
